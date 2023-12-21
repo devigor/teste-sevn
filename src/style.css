@@ -82,6 +82,15 @@
   filter: brightness(0.8);
 }
 
+.rounds_box--btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--color-gray);
+}
+
+.rounds_box--btn:disabled:hover {
+  filter: brightness(1);
+}
+
 .rounds_text {
   display: flex;
   flex-direction: column;
