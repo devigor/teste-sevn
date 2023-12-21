@@ -14,7 +14,42 @@
     <header class="header">
       <h1 class="header_title">Sevn Esportes &#9917;</h1>
     </header>
-    <div id="app"></div>
+
+    <main class="main">
+      <h2 class="main_subtitle">Confira as rodadas do nosso campeonato fictício!</h2>
+      
+      <div class="rounds">
+        <div class="rounds_box">
+          <button class="rounds_box--btn" type="button">
+            <img src="/src/images/left_arrow.svg" alt="Seta na cor branca apontando para a direção esquerda">
+          </button>
+          <div class="rounds_text">
+            <p class="rounds_text--title">Rodada de Jogos</p>
+            <p class="rounds_text--subtitle">Rodada 1</p>
+          </div>
+          <button class="rounds_box--btn" type="button">
+            <img src="/src/images/right_arrow.svg" alt="Seta na cor branca apontando para a direção direita">
+          </button>
+        </div>
+
+        <div class="rounds_teams">
+          <div class="rounds_teams--info">
+            <img src="/src/images/shields/time-a.png" alt="Escudo do time A" />
+            <p>Time A</p>
+          </div>
+          <div class="rounds_teams--score">
+            <p>3</p>
+            <img src="/src/images/icon_x.svg" alt="Ícone de um X para indicar o placar">
+            <p>0</p>
+          </div>
+          <div class="rounds_teams--info">
+            <p>Time B</p>
+            <img src="/src/images/shields/time-b.png" alt="Escudo do time B" />
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

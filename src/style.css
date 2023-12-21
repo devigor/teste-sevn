@@ -11,6 +11,7 @@
   --color-white: #FFFFFF;
   --color-green: #33B667;
   --color-black: #000000;
+  --color-gray: #DDDDDD;
 }
 
 * {
@@ -33,4 +34,103 @@
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
+}
+
+.main {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_subtitle {
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.rounds {
+  border: 1px solid var(--color-gray);
+  border-radius: 10px;
+  margin-top: 82px;
+  padding: 24px 22px;
+}
+
+.rounds_box {
+  display: flex;
+  align-items: center;
+}
+
+.rounds_box--btn {
+  all: unset;
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  
+  background-color: var(--color-green);
+  text-align: center;
+
+  transition: filter 0.3s ease;
+}
+
+.rounds_box--btn:hover {
+  filter: brightness(0.8);
+}
+
+.rounds_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 46px;
+}
+
+.rounds_text--title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.rounds_text--subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rounds_teams {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.rounds_teams--info {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.rounds_teams--info p {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-black);
+
+  margin: 0 10px;
+}
+
+.rounds_teams--score {
+  display: flex;
+  align-items: center;
+}
+
+.rounds_teams--score p {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.rounds_teams--score img {
+  margin: 0 14px;
 }
