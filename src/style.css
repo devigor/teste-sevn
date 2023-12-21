@@ -109,10 +109,13 @@
   text-transform: uppercase;
 }
 
+.rounds_teams--container {
+  margin-top: 56px;
+}
+
 .rounds_teams {
   display: flex;
   justify-content: space-between;
-  margin-top: 56px;
 }
 
 .rounds_teams--info {
